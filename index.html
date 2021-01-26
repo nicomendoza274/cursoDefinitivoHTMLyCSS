@@ -2,35 +2,24 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="description"
-      content="Esta página te mostratra fotos de animales"
-    />
     <meta name="robots" content="index,follow" />
-    <title>Es mi página web</title>
+    <title>Formulario</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <nav></nav>
-    </header>
-    <main>
-      <section>
-        <article></article>
-      </section>
-      <ul>
-        <li>Soy una manzana</li>
-      </ul>
-      <ol>
-        <li>Soy una manzana2</li>
-      </ol>
-    </main>
-    <footer></footer>
-    <p>soy un texto</p>
-    <h1>Soy un titulo</h1>
-    <h2>Soy otro titulo</h2>
-    <h3>Soy un titlo más</h3>
-    <a href="#">Soy un link</a>
+    <form action="">
+      <label for="nombre">
+        <span>¿Cual es tu nombre?</span>
+        <input type="text" id="nombre" placeholder="tu nombre"/>
+      </label>
+      <label for="inicio-platzi">
+        <span>¿Que dia comenzaste en Platzi?</span>
+        <input type="date" id="inicio-platzi" />
+      </label>
+      <label for="horario">
+        <span>¿En que horario estudias?</span>
+        <input type="time" id="horario" />
+      </label>
+    </form>
   </body>
 </html>
