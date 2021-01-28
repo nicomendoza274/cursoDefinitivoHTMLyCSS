@@ -1,7 +1,17 @@
-.text-container {
-  font-size: 1.5em;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.text-container div {
-  font-size: 1.5em;
+html {
+  font-size: 62.5%; /*--> dejo el html en 10px*/
+}
+
+p {
+  font-size: 1.6rem; /*--> obtengo 16px*/
+}
+
+main div {
+  font-size: 1.6rem;
 }
