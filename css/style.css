@@ -1,3 +1,10 @@
+:root {
+  --primary-color: #003476;
+  --secundary-color: #b4d2f7;
+  --header-size: 4rem;
+  --font: 1.8rem;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,42 +15,25 @@ html {
   font-size: 62.5%;
 }
 
-body {
-  font-size: 1.6rem;
+header {
+  width: 100vw;
+  height: 15vh;
+  background-color: var(--primary-color);
 }
 
-.container {
-  border: 0.3rem solid black;
-  display: flex;
-  flex-wrap: wrap;
+main {
+  width: 100vw;
+  height: 70vh;
+  font-size: var(--font);
 }
 
-.box {
-  /* width: 10rem; */
-  height: 10rem;
-  flex-basis: 10rem;
-  flex-grow: 1;
+h1 {
+  font-size: var(--header-size);
+  color: var(--primary-color);
 }
 
-.box-1 {
-  background-color: blue;
-}
-
-.box-2 {
-  background-color: blueviolet;
-}
-
-.box-3 {
-  background-color: burlywood;
-}
-
-.box-4 {
-  background-color: cadetblue;
-}
-.box-5 {
-  background-color: coral;
-}
-
-.box-6 {
-  background-color: salmon;
+footer {
+  width: 100vw;
+  height: 15vh;
+  background-color: var(--secundary-color);
 }
