@@ -4,14 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="robots" content="index,follow" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Imagenes - Malas Practicas</title>
+    <title>Imagenes - Buenas Practicas</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <main>
-      <div class="picture">
-        <img src="img/Grande.jpg" alt="">
-      </div>
+      <picture>
+        <source media="(min-width:1300px)" srcset="./img/Grande.jpg">
+        <source media="(min-width:1000px)" srcset="./img/Mediano.jpg">
+        <img src="img/Chica.jpg" alt="Es una imágen de Ejemplo">
+      </picture>
     </main>
   </body>
 </html>
