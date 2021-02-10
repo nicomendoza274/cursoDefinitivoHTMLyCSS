@@ -23,10 +23,6 @@ html {
   height: 150px;
 }
 
-.c4 {
-  height: auto;
-}
-
 .c1 {
   background-color: #003476;
 }
@@ -46,35 +42,48 @@ html {
 @media (min-width: 600px) {
   .c1 {
     width: 25%;
+    order: 1;
+  }
+
+  .c2 {
+    width: 75%;
+    order: 2;
+  }
+
+  .c3 {
+    width: 100%;
+    order: 3;
   }
 
   .c4 {
-    width: 75%;
+    width: 100%;
+    order: 4;
   }
 
   .c5 {
     width: 100%;
+    order: 5;
   }
 }
 
 @media (min-width: 800px) {
-  .container {
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+  .c1 {
+    width: 30%;
   }
 
-  .c1 {
-    width: 50%;
-    order: 1;
+  .c2 {
+    width: 40%;
+  }
+
+  .c3 {
+    width: 30%;
   }
 
   .c4 {
-    width: 100%;
+    width: 50%;
   }
 
   .c5 {
     width: 50%;
-    order: 2;
   }
 }
